@@ -1,5 +1,10 @@
 # Freedom for everyone.
-Unlocked OS is an operating system that is powered by the web. Using any web browser you can run this operating system in fullscreen mode to emulate an OS like feeling. The other thing is, is that you can easily put this on anything, you just need a web browser. Go to the website its being hosted on (soon to be on "https://sudolinux.github.io/unlocked-os") and wallaa... you have a minimal operating system in your web browser. You have full freedom to fork and edit the original code and turn it into anything you want.
+Unlocked OS is an operating system that is powered by the web. Using any web browser you can run this operating system in fullscreen mode to emulate an OS like feeling. The other thing is, is that you can easily put this on anything, you just need a web browser. Go to the website its being hosted on and wallaa... you have a minimal operating system in your web browser. You have full freedom to fork and edit the original code and turn it into anything you want.
+
+# How do I try this out?
+There are multiple ways like cloning this repo. But the recommended way is to visit the following website.
+
+https://sudolinux.github.io/unlocked-os
 
 # What programs are included?
 By default, unlocked OS uses webapps. In fact since there is almost a website for anything in the world, and the web browser is one of our most used programs on our computer, they will become quite handy.
