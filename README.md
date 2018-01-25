@@ -23,3 +23,14 @@ Yep. Free as in Freedom and Beer!
 
 # I'm interested!
 Sweet! Go to the website "http://vs2.dc4.us/projects/uos/uos.html" and you will be able to try it for yourself. Or of course, clone the repository and just use the HTML file, that works too.
+
+DISCLAIMER : 
+
+Some applications in this JS Operating System will NOT work unless your running our Linux distro.
+
+the Linux Distro is still a WIP. It will run chrome in Kiosk mode with this code as the desktop enviorment and will be based on Ubuntu 16.04LTS. the applications :
+
+KeyTerminal
+KeyFiles
+
+and maybe more in the future will only work on 'UnlockedOS' distro with Desktop Env. 
