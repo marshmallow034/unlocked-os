@@ -4,7 +4,7 @@ Unlocked OS is an operating system that is powered by the web. Using any web bro
 # How do I try this out?
 There are multiple ways like cloning this repo. But the easiest way for testers is to visit the following website.
 
-https://sudolinux.github.io/unlocked-os
+https://dc4.us/projects/uos/uos.html
 
 # What programs are included?
 By default, unlocked OS uses webapps. In fact since there is almost a website for anything in the world, and the web browser is one of our most used programs on our computer, they will become quite handy.
