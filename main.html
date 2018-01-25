@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<style>
+#keybrowser {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+}
+
+#keyclock {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+}
+
+#keycalc {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+}
+
+#keytext {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+}
+
+#keyterminal {
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;  
+}
+
+#mheader {
+    padding: 1px;
+    cursor: move;
+    z-index: 1;
+    background-color: #2196F3;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   z-index: 100;
+}
+#screen {
+  position: relative;
+}
+#time_display {
+   position:absolute;
+   top:0;
+   right:0;
+   color: lime;
+  }
+
+
+#menu {
+  position: fixed;
+  z-index: 9999; /* Most times is 2000 used as middle */
+  visibility: hidden;
+  opacity: 0;
+  
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 11px;
+  background: #fff;
+  color: #555;
+  border: 1px solid #C6C6C6;
+  
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
+  box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
+}
+
+
+
+body {
+  background-image: url("background.jpg");
+}
+</style>
+<body>
+<div id="screen">
+<div id="keybrowser">
+  <div id="mheader"> <a onclick="mainController('keybrowser','exit')"><img src="window_assets/red.png" width="13" height="13"></a> <a onclick="mainController('keybrowser','mi')"><img src="window_assets/orange.png" width="13" height="13"></a> <a onclick="mainController('keybrowser','ma')"><img src="window_assets/green.png" width="13" height="13"></a> <center>KeyBrowser</center></div>
+  <iframe src="apps/keybrowser.html" width="800" height="800" frameborder="0"></iframe>
+</div>
+<div id="keyclock">
+  <div id="mheader"> <a onclick="mainController('keyclock','exit')"><img src="window_assets/red.png" width="13" height="13"></a> <a onclick="mainController('keyclock','mi')"><img src="window_assets/orange.png" width="13" height="13"></a> <a onclick="mainController('keyclock','ma')"><img src="window_assets/green.png" width="13" height="13"></a> <center>KeyClock</center></div>
+  <iframe src="apps/keyclock.html" width="500" height="500" frameborder="0"></iframe>
+</div>
+<div id="keycalc">
+  <div id="mheader"> <a onclick="mainController('keycalc','exit')"><img src="window_assets/red.png" width="13" height="13"></a> <a onclick="mainController('keycalc','mi')"><img src="window_assets/orange.png" width="13" height="13"></a> <a onclick="mainController('keycalc','ma')"><img src="window_assets/green.png" width="13" height="13"></a> <center>KeyCalc</center></div>
+  <iframe src="apps/keycalc.html" width="400" height="400" frameborder="0"></iframe>
+</div>
+<div id="keytext">
+  <div id="mheader"> <a onclick="mainController('keytext','exit')"><img src="window_assets/red.png" width="13" height="13"></a> <a onclick="mainController('keytext','mi')"><img src="window_assets/orange.png" width="13" height="13"></a> <a onclick="mainController('keytext','ma')"><img src="window_assets/green.png" width="13" height="13"></a> <center>KeyText</center></div>
+  <iframe src="apps/keytext.html" width="400" height="400" frameborder="0"></iframe>
+</div>
+<br>
+<div id="keyterminal">
+  <div id="mheader"> <a onclick="mainController('keyterminal','exit')"><img src="window_assets/red.png" width="13" height="13"></a> <a onclick="mainController('keyterminal','mi')"><img src="window_assets/orange.png" width="13" height="13"></a> <a onclick="mainController('keyterminal','ma')"><img src="window_assets/green.png" width="13" height="13"></a> <center>KeyTerminal</center></div>
+  <iframe src="apps/keyterminal.html" width="800" height="500" frameborder="0"></iframe>
+</div>
+<div id="appicon-container">
+<div id="keybrowsericon">
+<figure>
+ <a onclick="mainController('keybrowser', 'open');"><img src="icons/keybrowser.png" width="72" height="72"></a>
+ <figcaption>KeyBrowser</figcaption>
+</figure>
+</div>
+<br>
+<div id="keyclockicon">
+<figure>
+  <a onclick="mainController('keyclock', 'open');"><img src="icons/keyclock.png" width="72" height="72"></a>
+  <figcaption>KeyClock</figcaption>
+</figure>
+</div>
+<br>
+<div id="keycalcicon">
+<figure>
+  <a onclick="mainController('keycalc', 'open');"><img src="icons/keycalc.png" width="72" height="72"></a>
+  <figcaption>KeyCalc</figcaption>
+</figure>
+</div>
+<br>
+<div id="keytexticon">
+<figure>
+  <a onclick="mainController('keytext', 'open');"><img src="icons/keytext.png" width="72" height="72"></a>
+  <figcaption>KeyText</figcaption>
+</figure>
+</div>
+<br>
+<div id="keyterminalicon">
+<figure>
+  <a onclick="mainController('keyterminal', 'open');"><img src="icons/keyterminal.png" width="72" height="72"></a>
+  <figcaption>KeyTerminal</figcaption>
+</figure>
+</div>
+</div>
+<script src="jquery.nu-selectable.js"></script>
+<script src="uos_main.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+
+  $( function() {
+$('#keybrowser').draggable(); 
+$('#keyclock').draggable(); 
+$('#keycalc').draggable();
+$('#keytext').draggable(); 
+$('#keyterminal').draggable();
+
+$('#keybrowsericon').draggable();
+$('#keyclockicon').draggable();
+$('#keycalcicon').draggable();
+$('#keytexticon').draggable(); 
+$('#keyterminalicon').draggable();
+  } );
+
+</script>
+<div id="time_display"></div>
+<script>
+function mainController($id, $opt) {
+if($opt == "delete") {
+var elem = document.getElementById($id);
+elem.parentNode.removeChild(elem);
+}
+if($opt == "exit") {
+dv = document.getElementById($id);
+dv.style.display = 'none';
+}
+if($opt == "open") {
+dv = document.getElementById($id);
+dv.style.display = '';
+}
+console.log("mainController . Fired Status: " + $opt + " on Obj: " + $id + " -mC");
+}
+function makefs($id) {
+var screen_width = document.getElementById('screen').offsetWidth;
+var screen_height = document.getElementById('screen').offsetHeight;
+dv = document.getElementById($id);
+dv.style.width = screen_width;
+dv.style.height = screen_height;
+}
+mainController("keyclock", "exit");
+mainController("keybrowser", "exit");
+mainController("keycalc","exit");
+mainController("keytext","exit");
+mainController("keyterminal","exit");
+
+
+
+
+
+</script>
+<script>
+ setInterval(function() {
+var time = moment().format('h:mm:ss A');
+document.getElementById('time_display').innerHTML = time;
+ }, 1000);   
+</script>
+<script src="http://momentjs.com/downloads/moment.js"></script>
+</div>
+<div class="footer">
+<center> <p>UnlockedOS Version 0.2 Alpha - [ WARNING THIS IS A DEV RELEASE. MAY BE UNSTABLE.]</p></center>
+</div>
+</div>
+</body>
+</html>
