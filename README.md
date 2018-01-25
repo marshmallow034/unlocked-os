@@ -22,4 +22,4 @@ You can create a Linux based operating system (or your own, if thats the case) o
 Yep. Free as in Freedom and Beer!
 
 # I'm interested!
-Sweet! Go to the website "https://sudolinux.github.io/unlocked-os" and you will be able to try it for yourself. Or of course, clone the repository and just use the HTML file, that works too.
+Sweet! Go to the website "https://dc4.us/projects/uos/uos.html" and you will be able to try it for yourself. Or of course, clone the repository and just use the HTML file, that works too.
