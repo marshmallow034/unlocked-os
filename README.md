@@ -4,7 +4,7 @@ Unlocked OS is an operating system that is powered by the web. Using any web bro
 # How do I try this out?
 There are multiple ways like cloning this repo. But the easiest way for testers is to visit the following website.
 
-https://vs2.dc4.us/projects/uos/uos.html
+https://cfxnet.com/projects/uos/uos.html
 
 # What programs are included?
 By default, unlocked OS uses webapps. In fact since there is almost a website for anything in the world, and the web browser is one of our most used programs on our computer, they will become quite handy.
@@ -22,7 +22,7 @@ You can create a Linux based operating system (or your own, if thats the case) o
 Yep. Free as in Freedom and Beer!
 
 # I'm interested!
-Sweet! Go to the website "http://vs2.dc4.us/projects/uos/uos.html" and you will be able to try it for yourself. Or of course, clone the repository and just use the HTML file, that works too.
+Sweet! Go to the website "https://cfxnet.com/projects/uos/uos.html" and you will be able to try it for yourself. Or of course, clone the repository and just use the HTML file, that works too.
 
 DISCLAIMER : 
 
