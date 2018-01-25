@@ -26,6 +26,12 @@ Sweet! Go to the website "https://cfxnet.com/projects/uos/uos.html" and you will
 
 DISCLAIMER : 
 
+To run some programs in this Operating System correctly you will need to run this in Google Chrome with
+
+X-Frame Assassin    Plugin
+iFrame Allow        Plugin
+Redirect Everywhere Plugin
+---------------------------------
 Some applications in this JS Operating System will NOT work unless your running our Linux distro.
 
 the Linux Distro is still a WIP. It will run chrome in Kiosk mode with this code as the desktop enviorment and will be based on Ubuntu 16.04LTS. the applications :
