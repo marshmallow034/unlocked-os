@@ -5,35 +5,30 @@
     position: absolute;
     z-index: 1;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
 }
 
 #keyclock {
     position: absolute;
     z-index: 1;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
 }
 
 #keycalc {
     position: absolute;
     z-index: 1;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
 }
 
 #keytext {
     position: absolute;
     z-index: 1;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
 }
 
 #keyterminal {
     position: absolute;
     z-index: 1;
     background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;  
 }
 
 #mheader {
@@ -72,18 +67,18 @@
   z-index: 9999; /* Most times is 2000 used as middle */
   visibility: hidden;
   opacity: 0;
-  
+
   padding: 0px;
   font-family: sans-serif;
   font-size: 11px;
   background: #fff;
   color: #555;
   border: 1px solid #C6C6C6;
-  
+
   -webkit-transition: opacity .5s ease-in-out;
   -moz-transition: opacity .5s ease-in-out;
   transition: opacity .5s ease-in-out;
-  
+
   -webkit-box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
   -moz-box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
   box-shadow: 2px 2px 2px 0px rgba(143, 144, 145, 1);
@@ -161,16 +156,16 @@ body {
 <script>
 
   $( function() {
-$('#keybrowser').draggable(); 
-$('#keyclock').draggable(); 
+$('#keybrowser').draggable();
+$('#keyclock').draggable();
 $('#keycalc').draggable();
-$('#keytext').draggable(); 
+$('#keytext').draggable();
 $('#keyterminal').draggable();
 
 $('#keybrowsericon').draggable();
 $('#keyclockicon').draggable();
 $('#keycalcicon').draggable();
-$('#keytexticon').draggable(); 
+$('#keytexticon').draggable();
 $('#keyterminalicon').draggable();
   } );
 
@@ -214,13 +209,13 @@ mainController("keyterminal","exit");
  setInterval(function() {
 var time = moment().format('h:mm:ss A');
 document.getElementById('time_display').innerHTML = time;
- }, 1000);   
+ }, 1000);
 </script>
 <script src="http://momentjs.com/downloads/moment.js"></script>
 </div>
 <div class="footer">
 <center> <p>UnlockedOS Version 0.9A - DYL Communications & SudoLinux - https://dc4.us </p></center>
 </div>
-</div> 
+</div>
 </body>
 </html>
