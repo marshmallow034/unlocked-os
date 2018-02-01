@@ -207,14 +207,14 @@ mainController("keyterminal","exit");
 </script>
 <script>
  setInterval(function() {
-var time = moment().format('h:mm:ss A');
+var time = moment().format('h:mm:ss A') + "<br />" + moment().format('MMMM D, YYYY');
 document.getElementById('time_display').innerHTML = time;
  }, 1000);
 </script>
 <script src="http://momentjs.com/downloads/moment.js"></script>
 </div>
 <div class="footer">
-<center> <p>UnlockedOS Version 0.9A - DYL Communications & SudoLinux - https://dc4.us </p></center>
+<center> <p>UnlockedOS Version 0.9A - Linux /usr/, DYL Communications & SudoLinux - https://dc4.us </p></center>
 </div>
 </div>
 </body>
