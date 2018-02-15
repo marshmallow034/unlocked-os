@@ -1,3 +1,6 @@
+# Development has been halted.
+I have sadly stopped developing unlockedOS for kryptoniteOS (see SudoLinux/kryptoniteOS). Development will soon be handed to dc4code (Dylan Cruz). So I would like to think all that appreaciated the project but it is being moved on.
+
 # Freedom for everyone.
 Unlocked OS is an operating system that is powered by the web. Using any web browser you can run this operating system in fullscreen mode to emulate an OS like feeling. The other thing is, is that you can easily put this on anything, you just need a web browser. Go to the website its being hosted on and wallaa... you have a minimal operating system in your web browser. You have full freedom to fork and edit the original code and turn it into anything you want.
 
